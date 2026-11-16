@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bny-mellon-cfo-tech-capex-ai-engine"
+version = "1.0.0"
+authors = [
+  { name="Bhupesh Chandra Dimri", email="bhupeshcdimri21@gmail.com" },
+]
+description = "Enterprise Tech CapEx Allocation, Multi-Currency FX Variance Decomposition & Anomaly Intelligence Engine for BNY Mellon Office of the CFO"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Office/Business :: Financial :: Investment",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/bhupesh-debug/bny-mellon-cfo-tech-capex-ai-engine"
+"Bug Tracker" = "https://github.com/bhupesh-debug/bny-mellon-cfo-tech-capex-ai-engine/issues"
